@@ -40,8 +40,12 @@ apt-get install libxext-dev
 
 ### Installing
 ```
-make
+	make
+for a specific window size:
+	make WIDTH=1500
 ```
+
+## Run the program
 
 ### Language: C
 
