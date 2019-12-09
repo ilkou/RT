@@ -1,5 +1,9 @@
 # RT
 # https://www.youtube.com/watch?v=Dg9k2Idyrx0
+Language: C
+Libraries: SDL, miniLibX, pthread
+features implemented: Voronoi noise, Perlin noise, UV mapping, Reflection, Antialiasing, Motion blur, Multi thread computing, slice different objects following its own axis, Point light, Parallel light, Soft shadow
+Objects: The Moebius ribbon, perforated cube, torus, paraboloid, hyperboloid, cube, cone, cylinder, sphere, plane, triangle..
 ![alt text](https://github.com/ilkou/rt/blob/master/ScreenShot/13377.png "1337 logo")
 ![alt text](https://github.com/ilkou/rt/blob/master/ScreenShot/all_limited.png "limited objects")
 ![alt text](https://github.com/ilkou/rt/blob/master/ScreenShot/flashlight.png "flashlight-spotlight")
