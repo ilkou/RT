@@ -1,4 +1,36 @@
 # RT
+
+an infrastructure capable of supporting different features and obtain sublime computer-generated images using the RAYTRACING method.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+#### Mac OS
+```
+Nothing :)
+```
+#### Windows
+```
+
+```
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
 ### Language: C
 ### Libraries: SDL, miniLibX, pthread
 ### Features implemented:
