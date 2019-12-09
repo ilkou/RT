@@ -9,6 +9,8 @@ Voronoi noise, Perlin noise, UV mapping, Reflection, Antialiasing, Motion blur, 
 ```
 The Moebius ribbon, perforated cube, torus, paraboloid, hyperboloid, cube, cone, cylinder, sphere, plane, triangle..
 ```
+### Resources
+*[Ray tracing in One Weekend](https://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf) - camera settings
 ## Youtube link: 
 ### https://www.youtube.com/watch?v=Dg9k2Idyrx0
 ![alt text](https://github.com/ilkou/rt/blob/master/ScreenShot/13377.png "1337 logo")
