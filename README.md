@@ -31,7 +31,9 @@ apt-get install libxext-dev
 echo "export DISPLAY=:0" >> ~/.bashrc
 ```
 ### Installing
-#### just type make :)
+```
+make
+```
 ### Language: C
 ### Libraries: SDL, miniLibX, pthread
 ### Features implemented:
