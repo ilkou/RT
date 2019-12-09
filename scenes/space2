@@ -1,0 +1,78 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 3 14.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-100.0 -20.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/sun.xpm 2048 1024"
+		"size": "70.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "4.6 3. 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/earth.xpm 2048 1024"
+		"size": "3.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.5 4.7 1.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/moon.xpm 2048 1024"
+		"size": "0.4 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-10.2 -3.5 -30.4"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/makemake.xpm 2048 1024"
+		"size": "3.35 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-3.4 -6.4 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/haumea.xpm 2048 1024"
+		"size": "1.4 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "7.3 -4.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/venus.xpm 2048 1024"
+		"size": "1.3 0.0"
+	}
+	"Object": "Disk"
+	{
+		"position": "7.3 -4.0 0.0"
+		"rotation": "0.1 0.9 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/venus.xpm 2048 1024"
+		"size": "1.9 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-12 6 -6.5"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/jupiter.xpm 2048 1024"
+		"size": "1.0 0.0"
+	}
+	"Light":
+	{
+		"position": "-5 0 10"
+		"color": "1 1 1"
+		"intensity": "0.45"
+	}
+]

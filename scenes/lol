@@ -1,0 +1,36 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0 0 10.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/oouklich.jpg 1"
+		"size": "2.45 0.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -2.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/earth_2k.png 1"
+		"size": "2.45 0.0"
+	}
+	"Light":
+	{
+		"position": "-10 10 5"
+		"color": "1 1 1"
+		"intensity": "0.05"
+	}
+	"Light":
+	{
+		"position": "10 10 5"
+		"color": "1 1 1"
+		"intensity": "0.05"
+	}
+]

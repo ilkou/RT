@@ -1,0 +1,94 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 10 20.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "1 0 0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/earth_2k.png 1"
+		"size": "5.0 0.0 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -3.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0 "
+		"translation": "0.0 0.0 0.0"
+		"noise": "11 2 0.5 1 1 1 0 0 0"
+		"size": "-2.0 -1.0 0"
+	}
+	"Object": "Cone"
+	{
+		"position": "-5.0 3.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "5 2 0.03 0 0 0 1 1 1"
+		"size": "60.0 -1.0 0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "7.0 7.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "-2.0 -1.0 0"
+	}
+	"Object": "Disk"
+	{
+		"position": "0.0 3.5 0.0"
+		"rotation": "0.0 1.0 0.0 0.0  0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/2k_sun.jpg 1"
+		"size": "0.05 6.0 0"
+	}
+	"Object": "Torus"
+	{
+		"position": "6.1 6.8 0.6"
+		"rotation": "0.0 1.0 0.0 0.0 0 0 "
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall2.jpg 1"
+		"size": "5 1 0"
+	}
+	"Object": "Paraboloid"
+	{
+		"position": "15 0 0"
+		"rotation": "1.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "21 2 2 0.231 0.055 0.965 0 0 0"
+		"size": "1 2 0"
+	}
+	"Object": "Hyperboloid"
+	{
+		"position": "-10.2 2.5 -2.4"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "0 2 0.03 0 0 0 0 0 0"
+		"size": "-500  2.0 0"
+	}
+	"Object": "Triangle"
+	{
+		"position": "-12 3 7"
+		"rotation": "0.0 0.0 1.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "20 2 0.03 0.31 0.32 0.544 0 0 0"
+		"size": "2 0 0"
+	}
+	"Object": "Cube"
+	{
+		"position": "-15.0 3.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "3 2 0.03 0 0 0 0 0 0"
+		"size": "6.0 6.0 2"
+	}
+	"Light":
+	{
+		"position": "-5 0 10"
+		"color": "1 1 1"
+		"intensity": "0.45"
+	}
+]

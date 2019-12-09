@@ -1,0 +1,151 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 50 70"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Cube"
+	{
+		"position": "-40.0 14.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-37.4 5.6 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "1.4 1 7"
+	}
+	"Object": "Cube"
+	{
+		"position": "-42.6 11.2 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "1.4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-37.2 0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "3 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-20.4 5.6 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "1.4 1 7"
+	}
+	"Object": "Cube"
+	{
+		"position": "-23.0 14.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-23.0 7 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-23.0 0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-5.4 5.6 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "1.4 1 7"
+	}
+	"Object": "Cube"
+	{
+		"position": "-8.0 14.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-8.0 7 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "-8.0 0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Cube"
+	{
+		"position": "8.4 5.6 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "1.4 1 7"
+	}
+	"Object": "Cube"
+	{
+		"position": "5.8 14.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "12.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "4 1 1.4"
+	}
+	"Object": "Plane"
+	{
+		"position": "0 -2.0 .0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"size": "-5 -5 0"
+		"noise": "20 2 0.03 0.321 0.589 0.974 0 0 0"
+		"coef": "1 1 1 1 0"
+	}
+	"Object": "Torus"
+	{
+		"position": "-40 -2.0 .0"
+		"rotation": "1.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"size": "10 2 0"
+		"noise": "6 2 0.03 0 0 0 0 0 0"
+	}
+	"Object": "PCube"
+	{
+		"position": "-40 -2.0 .0"
+		"rotation": "1.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"size": "10 1 0"
+		"noise": "8 4 2 0.97 .15 .77 0 0 0"
+	}
+	"Light":
+	{
+		"position": "-20 30 50"
+		"color": "1 1 1"
+		"intensity": "0.5"
+	}
+]

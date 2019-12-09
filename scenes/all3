@@ -1,0 +1,94 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 10 20.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -3.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "11 2 2 1 1 1 0 0 0"
+		"size": "-2.0 -1.0 0"
+	}
+	"Object": "Cone"
+	{
+		"position": "-5.0 3.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "5 2 0.03 0 0 0 1 1 1"
+		"size": "60.0 -1.0 0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "7.0 7.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "-2.0 -1.0 0"
+	}
+	"Object": "Disk"
+	{
+		"position": "0.0 3.5 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/2k_sun.jpg 1"
+		"size": "0.05 6.0 0"
+	}
+	"Object": "Torus"
+	{
+		"position": "4.6 6.8 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "10 600 5 1 1 0 1 0 0"
+		"size": "5 1 0"
+	}
+	"Object": "Paraboloid"
+	{
+		"position": "2.1 6.2 1.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/moon_2k.png 1"
+		"size": "0.05 1.5 0"
+	}
+	"Object": "Hyperboloid"
+	{
+		"position": "-10.2 2.5 -2.4"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "0 2 0.03 0 0 0 0 0 0"
+		"size": "-500  2.0 0"
+	}
+	"Object": "Triangle"
+	{
+		"position": "-12 3 7"
+		"rotation": "0.0 0.0 1.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0 1 0"
+		"size": "2 0 0"
+	}
+	"Object": "Cube"
+	{
+		"position": "-15.0 3.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "6.0 6.0 8"
+	}
+	"Object": "Moebius"
+	{
+		"position": "0 0 0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "8 2 4 0 1 0 0 0 0"
+		"size": "3 2 0"
+	}
+	"Light":
+	{
+		"position": "-5 0 10"
+		"color": "1 1 1"
+		"intensity": "0.45"
+	}
+]

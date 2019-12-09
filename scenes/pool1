@@ -1,0 +1,164 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 8.5 20.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "0.1 2.1 13"
+		"rotation": "0 0.5 0.9 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0.7 0.7 0.2"
+		"size": "0.2 5.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -1.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0 1 0"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "4 0 -16"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball14.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "3 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball9.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "2 0 -16"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball11.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "2 0 -12.535898"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball6.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "1 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball4.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 0 -16"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball5.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "1 0 -10.803848"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball10.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 0 -12.535898"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball8.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-1 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball15.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-2 0 -16"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball12.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 0 -9.071797"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball1.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-1 0 -10.803848"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball3.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-1.9 0 -12.535898"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball13.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-3 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball2.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-4 0 -16"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/Ball7.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 6"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/BallCue.xpm 648 324"
+		"size": "1.0 0.0"
+	}
+	"Light":
+	{
+		"position": "50 0 0"
+		"color": "1 1 1"
+		"intensity": "0.15"
+	}
+	"Light":
+	{
+		"position": "10 10 5"
+		"color": "1 1 1"
+		"intensity": "0.15"
+	}
+]

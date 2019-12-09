@@ -1,0 +1,30 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0 20 45"
+		"lookat": "0.0 .0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0 0 0"
+		"rotation": "0.0 0.0 1.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0.5 0"
+		"size": "-1.0 -1.0 0.0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "0.0 0.0 5.0"
+		"rotation": "-1.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "10.0 -3.0 0"
+	}
+	"Light":
+	{
+		"position": "0 0 50"
+		"color": "1 1 1 "
+		"intensity": "0.5"
+	}
+]

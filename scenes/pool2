@@ -1,0 +1,164 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 8.5 20.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "0.1 2.1 13"
+		"rotation": "0 0.5 0.9 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0.7 0.7 0.2"
+		"size": "0.2 5.0 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -1.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0 1 0"
+		"size": "-1. -10 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "4 0 -16"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball14.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "3 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball9.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "2 0 -16"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball11.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "2 0 -12.535898"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball6.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "1 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball4.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 0 -16"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball5.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "1 0 -10.803848"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball10.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 0 -12.535898"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball8.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "-1 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball15.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "-2 0 -16"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball12.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 0 -9.071797"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball1.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "-1 0 -10.803848"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball3.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "-1.9 0 -12.535898"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball13.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "-3 0 -14.267949"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball2.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "-4 0 -16"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/pool/Ball7.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 6"
+		"rotation": "0.0 1.0 0.0 0 0 0"
+		"translation": "0.0 0. 0"
+		"texture": "img/pool/BallCue.jpg 1"
+		"size": "1. 0 0 "
+	}
+	"Light":
+	{
+		"position": "50 0 0"
+		"color": "1 1 1"
+		"intensity": "0.15"
+	}
+	"Light":
+	{
+		"position": "10 10 5"
+		"color": "1 1 1"
+		"intensity": "0.15"
+	}
+]

@@ -1,0 +1,64 @@
+[
+	"Anti-al": "1.0"
+	"Camera":
+	{
+		"lookfrom": "2.2 4.4 16.4"
+		"lookat": "0.0002 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 -0.5 0.0"
+		"rotation": "-0.9 -0.00001 0.1 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/earth_2k.png 1"
+		"size": "5.4 0.0 0"
+		"coef": "0.15 0.3 0.3 40 0"
+		"refl": "0.85"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "9 0 1.5"
+		"rotation": "-0.7 1 0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall3.jpg 1"
+		"size": "1.5 0.0 0"
+	}
+	"Object": "Cone"
+	{
+		"position": "-6 0 4.2"
+		"rotation": "0 1 0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall3.jpg 3"
+		"size": "10 2.0 4"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -5.0 0.0"
+		"rotation": "0 1 0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "8 4 2 0.1954 0.984 0.0459 0 0 0"
+		"size": "-5 -0.5 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 10.0 -8.0"
+		"rotation": "0 0 1 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "10 4 2 0.0954 0.984 0.1459 0 0 0"
+		"size": "-5 -0.5 0"
+		"coef": "0.25 0.75 1 1 0"
+	}
+	"Light":
+	{
+		"position": "100 100 300"
+		"color": "1 1 1"
+		"intensity": "0.35"
+	}
+	"Light":
+	{
+		"position": "-100 100 300"
+		"color": "1 1 1"
+		"intensity": "0.35"
+	}
+]

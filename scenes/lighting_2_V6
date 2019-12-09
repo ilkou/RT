@@ -1,0 +1,54 @@
+[
+	"Camera":
+	{
+		"lookfrom": "3.2 1.0 3.7"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "-1.5 0.6 -0.3"
+		"rotation": "0.7 0.3 0.3 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0.5 1 0.4"
+		"size": "0.4 0 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -1.0 -100.0"
+		"rotation": "0.0 1.0 0.0 0.0  0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0 0 0"
+		"size": "-1.0 -1 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 0.0 -10.0"
+		"rotation": "0.0 0.0 1.0 0.0  0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0.01 0.01 1.0"
+		"size": " -10.0 -50 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "0.0 0.0 0.0 0.0  0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "1.0 0 0"
+	}
+	"Object": "Cone"
+	{
+		"position": "1.1 0.2 0.6"
+		"rotation": "-0.4 0.9 0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 1 0.3"
+		"size": "60.0 0 0"
+	}
+	"Light":
+	{
+		"position": "-10 0 50"
+		"color": "1 1 1"
+		"intensity": "0.2"
+	}
+]

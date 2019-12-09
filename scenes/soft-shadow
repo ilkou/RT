@@ -1,0 +1,60 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 1.9 4.7"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "90.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "4.5 0.0 0.5"
+		"rotation": "0.0 0.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "1.5 0.0 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -1.5 1.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"color": "0.1 1 0.3"
+		"size": "-2.0 -1.0 0"
+	}
+	"Light":
+	{
+		"position": "40 20 10"
+		"color": "1 1 1"
+		"intensity": "0.01"
+	}
+	"Light":
+	{
+		"position": "40 20 11""
+		"color": "1 1 1"
+		"intensity": "0.01"
+	}
+	"Light":
+	{
+		"position": "40 20 9"
+		"color": "1 1 1"
+		"intensity": "0.01"
+	}
+	"Light":
+	{
+		"position": "-40 20 10"
+		"color": "1 1 1"
+		"intensity": "0.01"
+	}
+	"Light":
+	{
+		"position": "-40 20 11"
+		"color": "1 1 1"
+		"intensity": "0.01"
+	}
+	"Light":
+	{
+		"position": "-40 20 9"
+		"color": "1 1 1"
+		"intensity": "0.01"
+	}
+]

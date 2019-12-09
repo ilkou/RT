@@ -1,0 +1,22 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0002 0 20.0"
+		"lookat": "0.0002 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "-0.7 -0.7 -0.1 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"noise": "5 1 0.03 0 1 0 1 0 0"
+		"size": "5 2 0"
+	}
+	"Light":
+	{
+		"position": "0 0 10"
+		"color": "1 1 1"
+		"intensity": "0.55"
+	}
+]

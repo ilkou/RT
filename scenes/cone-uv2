@@ -1,0 +1,32 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 30 50"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0 -7.0 .0"
+		"rotation": "0 1 0 0.0 0.0 0.0"
+		"translation": "0.0 0.0 0.0"
+		"size": "-25 25 0"
+		"noise": "11 20 4 1 1 1 0 0 0"
+		"refl": "0.8"
+	}
+	"Object": "Cone"
+	{
+		"position": "0 -2.0 .0"
+		"rotation": "0 1 0 0.0 0.0 0.0"
+		"translation": "0.0 0.0 0.0"
+		"size": "60 50 70"
+		"coef": "0.25 0.75 0.25 1 0"
+		"texture": "img/earth_2k.png 1"
+	}
+	"Light":
+	{
+		"position": "-20 40 60"
+		"color": "1 1 1"
+		"intensity": "0.5"
+	}
+]

@@ -1,0 +1,19 @@
+[
+	"Anti-al": "2"
+	"Camera":
+	{
+		"lookfrom": "0.0 20 50"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 -2.0 .0"
+		"rotation": "0 1 0 0.0 0.0 0.0"
+		"translation": "0.0 0.0 0.0"
+		"size": "10 0 0"
+		"coef": "0.15 0.75 0.75 70 0"
+		"texture": "img/brickwall.jpg 1"
+	}
+	"Ambient": "1"
+]

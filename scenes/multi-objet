@@ -1,0 +1,152 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 0.0 5.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "80.0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "-3.0 0.0 1.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.3 -1 0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "3.0 0.0 1.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.3 -1 0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "-3.0 0.0 -2.5"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.5 -1 0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "3.0 0.0 -2.5"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.5 -10 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -1.5 -100.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"coef": "0.8 0.7 0.7 1 1"
+		"size": "-10.0 -10 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 2.5 -100.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"coef": "0.8 0.7 0.7 1 1"
+		"size": "-10.0 -10 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 1.5 -7.5"
+		"rotation": "0.0 0.0 1.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "-10.0 -10 0"
+	}
+	"Object": "Moebius"
+	{
+		"position": "0.0 -0.8 0.0"
+		"rotation": "-0.8 -0.01 0.6 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "7 4 2 1 0.9 0.4 0.456 0.3822 0.855"
+		"size": "0.7 0.5 0"
+		"refl": "0.2"
+		"coef": "0.15 0.75 0.75 40 1"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-3.0 2.5 1.0"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.5 0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-3.0 -1.5 1.0"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.5 0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-3.0 2.5 -2.5"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.7 0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-3.0 -1.5 -2.5"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.7 0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "3.0 2.5 -2.5"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.7 0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "3.0 -1.5 -2.5"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.7 0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "3.0 2.5 1.0"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.5 0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "3.0 -1.5 1.0"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "img/brickwall.jpg 1"
+		"size": "0.5 0 0"
+	}
+	"Light":
+	{
+		"position": "35 2.4 50"
+		"color": "1 1 1"
+		"intensity": "0.1"
+	}
+	"Light":
+	{
+		"position": "-35 2.4 50"
+		"color": "1 1 1"
+		"intensity": "0.1"
+	}
+]

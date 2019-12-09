@@ -1,0 +1,22 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0 0 30.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Paraboloid"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "0 1 0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0.55 0"
+		"size": "2 2 0"
+	}
+	"Light":
+	{
+		"position": "0 0 15"
+		"color": "1 1 1"
+		"intensity": "0.25"
+	}
+]

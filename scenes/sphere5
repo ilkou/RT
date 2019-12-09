@@ -1,0 +1,24 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0 0 10.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -3.5 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"color": "0 0 1"
+		"size": "1.0 0.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"texture": "texture/earth.xpm 2048 1024"
+		"size": "2.0 0.0"
+	}
+]

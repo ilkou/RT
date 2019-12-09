@@ -1,0 +1,30 @@
+[
+	"Camera":
+	{
+		"lookfrom": "3.0 2.0 10.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "20.0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0.56 0.25 0.86"
+		"size": "1.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -1.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0.26 0.75 0.86"
+		"size": "1.0"
+	}
+	"Light":
+	{
+		"position": "0 50 0"
+		"color": "1 1 1"
+		"intensity": "0.2"
+	}
+]

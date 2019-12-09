@@ -1,0 +1,22 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0 0 30.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Torus"
+	{
+		"position": "0.0 0.0 0.0"
+		"rotation": "1 0 0 0.0 z"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0.55 0"
+		"size": "20 2"
+	}
+	"Light":
+	{
+		"position": "0 0 15"
+		"color": "1 1 1"
+		"intensity": "0.25"
+	}
+]

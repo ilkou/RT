@@ -1,0 +1,145 @@
+[
+	"Camera":
+	{
+		"lookfrom": "-12.7 5.0 7.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0.0 -5.0 0.0"
+		"rotation": "0 1 0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "11 2 0.5 1 1 1 0 0 0"
+		"size": "-5 -0.5 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0.0 0.8 0.0"
+		"rotation": "-0.7 -0.7 -0.1 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "/img/2k_sun.jpg 1"
+		"size": "1 0.0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "2.5 0.8 0.0"
+		"rotation": "0.0 0.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "/img/earth_2k.png 1"
+		"size": "1 0.0 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "-2.5 0.8 0.0"
+		"rotation": "-0.7 -0.7 -0.1 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"texture": "/img/2k_haumea.jpg 1"
+		"size": "1 0.0 0"
+	}
+	"Object": "Cube"
+	{
+		"position": "1.2 -3.9 3.9"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.13 0.13 1.3"
+	}
+	"Object": "Cube"
+	{
+		"position": "-1.2 -3.9 3.9"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.13 0.13 1.3"
+	}
+	"Object": "Cube"
+	{
+		"position": "1.2 -2.7 5.7"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.13 0.13 2.5"
+	}
+	"Object": "Cube"
+	{
+		"position": "-1.2 -2.7 5.7"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.13 0.13 2.5"
+	}
+	"Object": "Cube"
+	{
+		"position": "0 -1.5 5.7"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "1.3 0.15 1.5"
+	}
+	"Object": "Cube"
+	{
+		"position": "0 -2.4 4.7"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "1.5 1 0.15"
+	}
+	"Object": "Cube"
+	{
+		"position": "0 -0.4 0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "5 2 0.2"
+		"refl": "0.8"
+	}
+	"Object": "Cube"
+	{
+		"position": "-4.8 -4 -1.8"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.2 0.2 3.5"
+		"refl": "0.2"
+	}
+	"Object": "Cube"
+	{
+		"position": "-4.8 -4 1.8"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.2 0.2 3.5"
+		"refl": "0.2"
+	}
+	"Object": "Cube"
+	{
+		"position": "4.8 -4 1.8"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.2 0.2 3.5"
+		"refl": "0.2"
+	}
+	"Object": "Cube"
+	{
+		"position": "4.8 -4 -1.8"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 0 0"
+		"size": "0.2 0.2 3.5"
+		"refl": "0.2"
+	}
+	"Light":
+	{
+		"position": "5 5 10"
+		"color": "1 1 1"
+		"intensity": "0.5"
+	}
+	"Light":
+	{
+		"position": "-5 5 10"
+		"color": "1 1 1"
+		"intensity": "0.5"
+	}
+]

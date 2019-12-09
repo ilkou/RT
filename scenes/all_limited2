@@ -1,0 +1,86 @@
+[
+	"Camera":
+	{
+		"lookfrom": "0.0 0 30.0"
+		"lookat": "0.0 0.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "-17.0 -8.0 0.0"
+		"rotation": "0.0 0.0 1.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "11 2 2 1 1 1 0 0 0"
+		"size": "6.0 4.0 2.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "17.0 -8.0 0.0"
+		"rotation": "0.0 0.0 1.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "18 2 2 0 0 0 1 1 1"
+		"size": "6.0 4.0 0"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "0.0 -7.0 0.0"
+		"rotation": "0.7 0.0 0.7 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "3.0 6.0 1"
+	}
+	"Object": "Cylinder"
+	{
+		"position": "0 8.5 0.0"
+		"rotation": "0.7 0.3 -0.7 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "1 1 1"
+		"size": "3.0 6.0 2.0"
+	}
+	"Object": "Disk"
+	{
+		"position": "15 6 0"
+		"rotation": "0 0.0 1.0 0.0 0 0"
+		"color": "1 1 1"
+		"translation": "0.0 0.0 0.0"
+		"size": "5 4 0"
+	}
+	"Object": "Disk"
+	{
+		"position": "-15 6 0"
+		"rotation": "0.0 0.0 1.0 0.0  0 0"
+		"translation": "0.0 0.0 0.0"
+		"color": "0 0 1"
+		"size": "5 -2 0"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 8 0"
+		"rotation": "1.0 1.0 1.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "5 2 0.03 0 0 1 0 0 0"
+		"size": "4 1 0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0 0 -10"
+		"rotation": "0 0.7 0.7 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "18 10 20 1 0 1 0 0 0"
+		"size": "-6 -4 0"
+	}
+	"Object": "Cube"
+	{
+		"position": "-19.0 3.0 0.0"
+		"rotation": "0.0 1.0 0.0 0.0 0 0"
+		"translation": "0.0 0.0 0.0"
+		"noise": "11 2 6 1 1 0 0 0 1"
+		"size": "2 2 5"
+	}
+	"Light":
+	{
+		"position": "-5 0 10"
+		"color": "1 1 1"
+		"intensity": "0.45"
+	}
+]

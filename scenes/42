@@ -1,0 +1,34 @@
+[
+	"Anti-al": "2"
+	"Camera":
+	{
+		"lookfrom": "19.1 10 60"
+		"lookat": "0.0 -7.0 0.0"
+		"fov": "60.0"
+	}
+	"Object": "Plane"
+	{
+		"position": "0 -18 .0"
+		"rotation": "0 1 0 0.0 0.0 0.0"
+		"translation": "0.0 0.0 0.0"
+		"size": "-25 -25 0"
+		"noise": "10 2 1 1 1 1 0 0 0"
+		"refl": "0.8"
+	}
+	"Object": "Sphere"
+	{
+		"position": "0 -8.5 .0"
+		"rotation": "-1 0 0.3 0.0 0.0 0.0"
+		"translation": "0.0 0.0 0.0"
+		"size": "15 0 0"
+		"coef": "0.25 0.75 0.25 1 0"
+		"texture": "img/earth_2k.png 1"
+	}
+	"Light":
+	{
+		"soft": "200 5"
+		"position": "-20 40 60"
+		"color": "1 1 1"
+		"intensity": "0.5"
+	}
+]
