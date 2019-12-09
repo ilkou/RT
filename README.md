@@ -20,27 +20,18 @@ Nothing :)
 apt-get update
 apt-get upgrade
 ```
+* install gcc and make
 * install the following packages:
 ```
 apt-get install libx11-dev
 apt-get install libxext-dev
 ```
-#### to run graphical Linux programs on your windows 10 desktop you need a GUI server, such as X11. Such doesn’t not exist for Windows, but there are alternatives, one of which is Xming, which can be downloaded free of charge, from SourceForge : https://sourceforge.net/projects/xming/ (set private when ask)
+#### to run graphical Linux programs on your windows 10 desktop you need a GUI server, such as X11. Such doesn’t not exist for Windows, but there are alternatives, one of which is Xming, which can be downloaded free of charge, from SourceForge : https://sourceforge.net/projects/xming/ (set private when ask) then enable bash to use xming which can be done by typing the following line
+```
+echo "export DISPLAY=:0" >> ~/.bashrc
+```
 ### Installing
- 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
+#### just type make :)
 ### Language: C
 ### Libraries: SDL, miniLibX, pthread
 ### Features implemented:
