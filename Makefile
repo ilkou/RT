@@ -6,7 +6,7 @@
 #    By: oouklich <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/18 14:32:27 by oouklich          #+#    #+#              #
-#    Updated: 2019/12/02 23:41:55 by oouklich         ###   ########.fr        #
+#    Updated: 2019/12/09 18:36:21 by oouklich         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -106,7 +106,13 @@ WARN_COLOR=\x1b[33;01m
 BUILD_PRINT = $(GREEN_COLOR)rt successfully compiles$(NO_COLOR)
 OK_STRING=$(OK_COLOR)[OK]$(NO_COLOR)
 KO_STRING=$(ERROR_COLOR)[KO]$(NO_COLOR)
+
+ifeq ($(shell uname), Darwin)
 MLX_DIR = minilibx_macos
+else
+MLX_DIR = minilibx_linux
+endif
+
 WIDTH = 1000
 
 ifeq ($(shell uname), Darwin)
@@ -114,7 +120,7 @@ $(info MacOs detected)
 MLX = -I $(MLX_DIR) -L $(MLX_DIR) -lmlx -framework OpenGL -framework AppKit
 else
 $(info $(shell uname) detected)
-MLX = -lm -lmlx -lXext -lX11
+MLX = -lm -I $(MLX_DIR) -L $(MLX_DIR) -lmlx -lXext -lX11
 endif
 
 ifeq ($(shell uname), Darwin)

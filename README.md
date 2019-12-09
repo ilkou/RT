@@ -13,11 +13,21 @@ These instructions will get you a copy of the project up and running on your loc
 Nothing :)
 ```
 #### Windows
-```
 
+* terminal of ubuntu or other linux distributions (windows store)
+* update and upgrade ur system:
 ```
+apt-get update
+apt-get upgrade
+```
+* install the following packages:
+```
+apt-get install libx11-dev
+apt-get install libxext-dev
+```
+#### to run graphical Linux programs on your windows 10 desktop you need a GUI server, such as X11. Such doesn’t not exist for Windows, but there are alternatives, one of which is Xming, which can be downloaded free of charge, from SourceForge : https://sourceforge.net/projects/xming/ (set private when ask)
 ### Installing
-
+ 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
