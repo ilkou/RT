@@ -40,9 +40,10 @@ apt-get install libxext-dev
 
 ### Installing
 ```
-	make
-for a specific window size:
-	make WIDTH=1500
+- default window size:
+  make
+- for a specific window size:
+  make WIDTH=1500
 ```
 
 ## Run the program
