@@ -16,7 +16,8 @@ The Moebius ribbon, perforated cube, torus, paraboloid, hyperboloid, cube, cone,
 * [Voronoi noise](https://www.ronja-tutorials.com/2018/09/29/voronoi-noise.html) - a noise based on cells
 * [Perlin noise](https://www.realtimerendering.com/raytracing/Ray%20Tracing_%20The%20Next%20Week.pdf) - a repeatable noise
 ## Video
-* [Youtube link](https://www.youtube.com/watch?v=Dg9k2Idyrx0) - 
+* [Youtube link](https://www.youtube.com/watch?v=Dg9k2Idyrx0)
+## Pics 
 ![alt text](https://github.com/ilkou/rt/blob/master/ScreenShot/13377.png "1337 logo")
 ![alt text](https://github.com/ilkou/rt/blob/master/ScreenShot/all_limited.png "limited objects")
 ![alt text](https://github.com/ilkou/rt/blob/master/ScreenShot/flashlight.png "flashlight-spotlight")
