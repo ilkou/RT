@@ -97,15 +97,20 @@ LIBFT_NORM += libft.h
 OBJS_DIR = objs
 OBJ = $(SRCS:%.c=$(OBJS_DIR)/%.o)
 
-OK_COLOR=\x1b[102;01m
-GREEN_COLOR=\x1b[32;01m
-YELLOW_COLOR=\x1b[33;01m
-NO_COLOR=\x1b[0m
-ERROR_COLOR=\x1b[101;01m
-WARN_COLOR=\x1b[33;01m
-BUILD_PRINT = $(GREEN_COLOR)rt successfully compiles$(NO_COLOR)
-OK_STRING=$(OK_COLOR)[OK]$(NO_COLOR)
-KO_STRING=$(ERROR_COLOR)[KO]$(NO_COLOR)
+CLEAR_LINE=\033[2K
+BEGIN_LINE=\033[A
+_END_COL=\033[0m
+_RED_COL=\033[1;31m
+_GREEN_COL=\033[1;32m
+_YELLOW_COL=\033[1;33m
+_BLUE_COL=\033[1;34m
+_VIOLET_COL=\033[1;35m
+_CYAN_COL=\033[1;36m
+_WHITE_COL=\033[1;37m
+
+BUILD_PRINT = $(_GREEN_COL)rt successfully compiles$(_END_COL)
+OK_STRING=$(_GREEN_COL)[OK]$(_END_COL)
+KO_STRING=$(_RED_COL)[KO]$(_END_COL)
 
 ifeq ($(shell uname), Darwin)
 MLX_DIR = minilibx_macos
@@ -150,6 +155,7 @@ MYFLAG += $(SDL_FLAGS)
 all: $(NAME)
 
 $(NAME): $(OBJS_DIR) $(OBJ)
+	@echo "$(CLEAR_LINE)$(_BLUE_COL)Compiling libraries$(_END_COL)"
 	@make libmlx.a -C $(MLX_DIR)
 	@make libft.a -C libft
 	@gcc $(CFLAGS) -o $(NAME) $(filter-out $<, $+) $(MYFLAG)
@@ -168,15 +174,18 @@ $(OBJS_DIR):
 COMPILE_OBJECT = gcc -I headers/SDL2 -I ./minilibx_macos -I headers $(CFLAGS) -o $@ -c $< && echo "$(OK_STRING)" || echo "$(KO_STRING)"
 
 objs/%.o: srcs/%.c headers/rt.h headers/rt_define.h headers/rt_struct.h
-	@echo "Compiling $(W_COLOR)$<$(NO_COLOR) ==> $@ `$(COMPILE_OBJECT)`"
+	@echo "$(CLEAR_LINE)$(_BLUE_COL)[$(NAME)]$(_CYAN_COL) Compiling [$(_END_COL)$(_YELLOW_COL)$<$(_END_COL)$(_CYAN_COL)] ==> [$(_YELLOW_COL)$@$(_END_COL)$(_CYAN_COL)] $(_END_COL)`$(COMPILE_OBJECT)`$(BEGIN_LINE)"
+
+
+#@echo "$(CLEAR_LINE)$(COL_BLUE)[$(NAME)] $(COL_YELLOW)Compiling file [$(COL_VIOLET)$<$(COL_YELLOW)]. ($(CURRENT_FILES) / $(TOTAL_FILES))$(COL_END)$(BEGIN_LINE)"
 
 clean:
-	@rm -f $(OBJ) && echo "$(YELLOW_COLOR)Deleting objects...$(NO_COLOR)"
+	@rm -f $(OBJ) && echo "$(_YELLOW_COL)Deleting objects...$(_END_COL)"
 	@make clean -C $(MLX_DIR)
 	@make clean -C libft
 
 fclean: clean
-	@rm -f $(NAME) && echo "$(YELLOW_COLOR)Deleting $(NAME)...$(NO_COLOR)"
+	@rm -f $(NAME) && echo "$(_YELLOW_COL)Deleting $(NAME)...$(_END_COL)"
 	@make fclean -C libft
 
 re: fclean all
