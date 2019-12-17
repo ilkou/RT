@@ -6,7 +6,7 @@
 #    By: oouklich <ouklichoussama@gmail.com>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/19 18:21:45 by oouklich          #+#    #+#              #
-#    Updated: 2019/09/28 23:01:56 by oouklich         ###   ########.fr        #
+#    Updated: 2019/12/17 19:31:03 by oouklich         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,8 @@ SRC += ft_mind3.c ft_maxd3.c
 
 OBJ = $(SRC:.c=.o)
 
+CLEAR_LINE=\033[2K
+BEGIN_LINE=\033[A
 OK_COLOR=\x1b[102;01m
 GREEN_COLOR=\x1b[32;01m
 NO_COLOR=\x1b[0m
@@ -56,6 +58,7 @@ NAME = libft.a
 all: $(NAME)
 
 $(NAME): $(OBJ)
+	@echo "$(CLEAR_LINE)"
 	@ar rc $(NAME) $^
 	@ranlib $(NAME)
 	@echo "$(BUILD_PRINT)"
@@ -63,7 +66,7 @@ $(NAME): $(OBJ)
 COMPILE_OBJECT = gcc $(CFLAGS) -o $@ -c $< -I . 2>/dev/null && echo "$(OK_STRING)" || echo "$(KO_STRING)" 
 
 %.o: %.c
-	@echo "Compiling $< ==> $@ `$(COMPILE_OBJECT)`"
+	@echo "$(CLEAR_LINE)Compiling $< ==> $@ `$(COMPILE_OBJECT)`$(BEGIN_LINE)"
 
 clean:
 	@rm -f $(OBJ)
