@@ -6,7 +6,7 @@
 #    By: oouklich <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/18 14:32:27 by oouklich          #+#    #+#              #
-#    Updated: 2019/12/09 18:36:21 by oouklich         ###   ########.fr        #
+#    Updated: 2019/12/17 19:28:49 by oouklich         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -175,9 +175,6 @@ COMPILE_OBJECT = gcc -I headers/SDL2 -I ./minilibx_macos -I headers $(CFLAGS) -o
 
 objs/%.o: srcs/%.c headers/rt.h headers/rt_define.h headers/rt_struct.h
 	@echo "$(CLEAR_LINE)$(_BLUE_COL)[$(NAME)]$(_CYAN_COL) Compiling [$(_END_COL)$(_YELLOW_COL)$<$(_END_COL)$(_CYAN_COL)] ==> [$(_YELLOW_COL)$@$(_END_COL)$(_CYAN_COL)] $(_END_COL)`$(COMPILE_OBJECT)`$(BEGIN_LINE)"
-
-
-#@echo "$(CLEAR_LINE)$(COL_BLUE)[$(NAME)] $(COL_YELLOW)Compiling file [$(COL_VIOLET)$<$(COL_YELLOW)]. ($(CURRENT_FILES) / $(TOTAL_FILES))$(COL_END)$(BEGIN_LINE)"
 
 clean:
 	@rm -f $(OBJ) && echo "$(_YELLOW_COL)Deleting objects...$(_END_COL)"
