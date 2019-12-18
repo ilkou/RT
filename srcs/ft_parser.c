@@ -52,7 +52,7 @@ t_vector	ft_linetorot(t_ptr *p, char **line, int free_it)
 	if (free_it)
 		free(*line);
 	if (ft_twodimlen(each) != 6)
-		ft_free_exit("must be sex values for such data\n", 1, &p);
+		ft_free_exit("must be six values for such data\n", 1, &p);
 	ft_do_rot(p, &ret, each);
 	ft_free_twodim(&each);
 	return (ret);
