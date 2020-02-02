@@ -67,7 +67,8 @@ The Moebius ribbon, perforated cube, torus, paraboloid, hyperboloid, cube, cone,
 * [Phong](https://en.wikipedia.org/wiki/Phong_reflection_model) - Phong reflection model
 * [Moebius](https://www.mathcurve.com/surfaces/mobiussurface/mobiussurface.shtml) - The Moebius ribbon
 * [Voronoi noise](https://www.ronja-tutorials.com/2018/09/29/voronoi-noise.html) - a noise based on cells
-* [Perlin noise](https://www.realtimerendering.com/raytracing/Ray%20Tracing_%20The%20Next%20Week.pdf) - a repeatable noise
+* [Perlin noise](http://evasion.imag.fr/Publications/2006/AN06/Flow-noise_temps_reel.pdf) - a repeatable noise
+* [Perlin noise code](https://www.realtimerendering.com/raytracing/Ray%20Tracing_%20The%20Next%20Week.pdf)
 
 ## Video
 * [Youtube link](https://www.youtube.com/watch?v=Dg9k2Idyrx0)
