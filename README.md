@@ -16,7 +16,7 @@ Nothing :)
 #### Windows
 
 * terminal of ubuntu or other linux distributions (windows store)
-#### to run graphical Linux programs on your windows 10 desktop you need a GUI server, such as X11. Such doesn’t not exist for Windows, but there are alternatives, one of which is Xming, which can be downloaded free of charge, from SourceForge : https://sourceforge.net/projects/xming/ (set private when ask) then enable bash to use xming which can be done by typing the following line
+#### to run graphical Linux programs on your windows 10 desktop you need a GUI server, such as X11. Such does not exist for Windows, but there are alternatives, one of which is Xming, which can be downloaded free of charge, from [SourceForge](https://sourceforge.net/projects/xming/) (set private when ask) then enable bash to use xming which can be done by executing the following command:
 ```
 echo "export DISPLAY=:0" >> ~/.bashrc
 ```
